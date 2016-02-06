@@ -1,3 +1,16 @@
+/*Edição inline
+Neste desafio tente editar os campos, onde a edição é ativada clicando sobre o valor.
+
+Passos
+
+Clique no nome 'Fulano de Tal' para editá-lo
+Insire qualquer valor e clique em Salvar
+Repita os itens acima para os campos Email e Telefone
+Após ter inserido todos os dados, valide que eles estão sendo apresentados
+
+Dicas!!!
+Sem dicas desta vez, este é facil!!!*/
+
 package desafiosSelenium;
 
 import static org.junit.Assert.assertEquals;
