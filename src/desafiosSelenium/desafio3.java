@@ -68,6 +68,7 @@ public class desafio3 {
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#table_3>tbody>tr>td")));
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#table_4>tbody>tr>td")));
 //		wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#table_6>tbody>tr>td")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='main-container']//a[text()='Checkout']")));
 		
 		driver.findElement(By.xpath("//div[@id='main-container']//a[text()='Checkout']")).click();
 		
